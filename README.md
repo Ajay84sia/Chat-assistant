@@ -27,3 +27,7 @@ GROQ_MODEL=openai/gpt-oss-120b
 ```
 
 Then restart the app to use the real model.
+
+<img width="1911" height="872" alt="image" src="https://github.com/user-attachments/assets/dc833d5a-f1d3-48b1-8f6c-01a265b87bf0" />
+
+
