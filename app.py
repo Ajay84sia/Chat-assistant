@@ -77,6 +77,10 @@ def root() -> HTMLResponse:
     with open("templates/index.html", "r", encoding="utf-8") as handle:
         return HTMLResponse(content=handle.read())
 
+@app.get("/test")
+def test():
+    return {"message": "Welcome to the server"}
+
 
 @app.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest) -> ChatResponse:
